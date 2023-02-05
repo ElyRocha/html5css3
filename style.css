@@ -2,6 +2,38 @@
 Nordeste Turismo, Aventuras e memórias para a vida inteira
 */
 
+/*Importação Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*CSS Resert*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
 body { 
-    background-color: #ff0000;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #405E65;
+    font-size: 1em;
+}
+
+/* Layout */
+.Container {
+    margin: 0 auto;
+}
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (min-width:768px){
+    body{
+        background-color: aqua;
+    }
+
+    /* Layout */
+    .Container {
+        max-width: 540px;
+    }
 }
